@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.form-control {
+  width: auto !important;
+  display: inline !important;
+}
+.help-block {
+  margin-left: 60px;
+}
+.passowrd {
+  margin-left: 30px;
+}

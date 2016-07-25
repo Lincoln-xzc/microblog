@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/stylesheets/style.css"/>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css"/>
+
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-header">
+            <a class="btn btn-navbar navbar-toggle collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        </div>
+        <div class="navbar">
+            <a class="brand" href="/">Microblog</a>
+            <div class="nav-collapse">
+                <ul class="nav list-unstyled">
+                    <li class="active"><a href="/">首页</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="container" class="container" style="margin-top: 20px;">
+        <div class="hero-unit">
+            <h1>欢迎来到Microblog</h1>
+            <p>Microblog 是一个基于Nodejs的微博系统</p>
+            <p>
+                <a class="btn btn-primary btn-large" href="/api/login">登录</a>
+                <a class="btn btn-large" href="/api/reg">立即注册</a>
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Carbo 说</h2>
+                <p>东风破早梅 向暖一直开 冰雪无人见 春从天上来</p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Lincoln  说</h2>
+                <p>
+                    Open Chinese Convert (OpenCC)是一个开源的中文简繁转换项目，
+                    致力于制作高质量的基于统计预料的简繁转换词库。
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Lincoln  说</h2>
+                <p>
+                    Open Chinese Convert (OpenCC)是一个开源的中文简繁转换项目，
+                    致力于制作高质量的基于统计预料的简繁转换词库。
+                </p>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <p><a href="http://www.xzc.com" target="__blank">Lincoln</a></p>
+        </footer>
+    </div>
+    <script src="/javascripts/jquery.min.js"/>
+    <script src="/javascripts/bootstrap.min.js"/>
+</body>
+</html>

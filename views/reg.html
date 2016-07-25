@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="/stylesheets/style.css"/>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css"/>
+
+</head>
+<body>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-header">
+        <a class="btn btn-navbar navbar-toggle collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+    </div>
+    <div class="navbar">
+        <a class="brand" href="/">Microblog</a>
+        <div class="nav-collapse">
+            <ul class="nav list-unstyled">
+                <li class="active"><a href="/">首页</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="container" class="container" style="margin-top: 40px;">
+    <form class="form-horizontal" method="post">
+        <fieldset>
+            <legend>用户注册</legend>
+            <div class="control-group" style="margin-left: 10px;">
+                <label class="label-control">用户名：
+                    <input type="text" class="form-control" id="username" name="username">
+                    <p class="help-block">你的账户名称，用户登录和显示。</p>
+                </label>
+            </div>
+            <div class="control-group" style="margin-left: 27px;margin-bottom: 10px;">
+                <label class="label-control">密码：
+                    <input type="password" class="form-control" id="passowrd" name="password">
+                </label>
+            </div>
+            <div class="control-group">
+                <label class="label-control">重复密码：
+                    <input type="password" class="form-control" id="passoword-repeat" name="password-repeat">
+                </label>
+            </div>
+            <div class="" style="margin-left: 80px;margin-top: 10px;">
+                <button type="submit" class="btn btn-primary">注册</button>
+            </div>
+        </fieldset>
+    </form>
+    <hr>
+    <footer>
+        <p><a href="http://www.xzc.com" target="__blank">Lincoln</a></p>
+    </footer>
+</div>
+<script src="/javascripts/jquery.min.js"/>
+<script src="/javascripts/bootstrap.min.js"/>
+</body>
+</html>
